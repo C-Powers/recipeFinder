@@ -1,0 +1,20 @@
+{% load staticfiles %}
+
+<html>
+    <head>
+        <title>Get a Recipe!</title>
+        <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+        <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css">
+        <link rel="stylesheet" href="{% static 'css/scrape.css' %}">
+    </head>
+    <body>
+        <p>
+          Click the button below and get a new vegetarian recipe
+        </p>
+        <a href="/runScraper"> Click Me </a>
+
+        {% block content %}
+        {% endblock %}
+
+    </body>
+</html>
