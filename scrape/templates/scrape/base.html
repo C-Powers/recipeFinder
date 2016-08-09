@@ -8,11 +8,20 @@
         <link rel="stylesheet" href="{% static 'css/scrape.css' %}">
     </head>
     <body>
-        <p>
-          Click the button below and get a new vegetarian recipe
-        </p>
-        <a href="/runScraper"> Click Me </a>
-
+    <div class = "bg-content">
+    </div>
+    <div class = "content-holder absolute-center">
+      <div class="intro-header">
+          <h3 class = "text-center">
+              Don't know what to eat?
+          </h3>
+      </div>
+      <div class = "text-center button-holder">
+        <button class = "btn btn-primary" id = "button-click">
+            <a href="/runScraper"> Veggie Recipe </a>
+        </button>
+      </div>
+    </div>
         {% block content %}
         {% endblock %}
 
