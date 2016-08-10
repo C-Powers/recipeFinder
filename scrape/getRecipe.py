@@ -35,6 +35,7 @@ def get_Recipe():
     randomN = np.random.random_integers(0, len(recipes)-1)
     randomRecipe = recipes[randomN]
     link = randomRecipe.get('href')
+    print('link', link)
     webbrowser.open(link)
 
 '''
