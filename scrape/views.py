@@ -1,4 +1,5 @@
 from django.shortcuts import render, redirect
+from django.http import HttpResponseRedirect
 import webbrowser as wb
 from .getRecipe import get_Recipe
 # Create your views here.
@@ -9,5 +10,5 @@ def baseSite(request):
 def newSite(request):
     # link = "https://www.google.com/"
     # wb.open(link)
-    get_Recipe()
-    return redirect('/')
+    redirectUrl = get_Recipe()
+    return redirect(redirectUrl)

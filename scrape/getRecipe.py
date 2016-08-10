@@ -36,7 +36,8 @@ def get_Recipe():
     randomRecipe = recipes[randomN]
     link = randomRecipe.get('href')
     print('link', link)
-    webbrowser.open(link)
+    #webbrowser.open(link)
+    return link
 
 '''
 def get_Recipe():
