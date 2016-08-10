@@ -10,4 +10,4 @@ def newSite(request):
     # link = "https://www.google.com/"
     # wb.open(link)
     get_Recipe()
-    return redirect('http://127.0.0.1:8000/')
+    return redirect('/')

@@ -1,5 +1,5 @@
 '''
-Create by cpowers
+Created by cpowers
 cjpowers3@gmail.com
 This is a simple code that pulls a recipie or food item from the top scoring links
 page of /r/vegRecipes.
